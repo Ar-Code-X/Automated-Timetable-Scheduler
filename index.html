@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="add-venue">
+    <p>
+      Add lecture room:
+    </p>
+    <input class="lr-info lr-name" placeholder="Venue" type="text">
+    <input class="lr-info lr-capacity" placeholder="Capacity" type="number">
+    <button class="lr-add-button js-lr-add-button">ADD</button>
+  </div>
+
+  <div>
+    <p>
+      Add department:
+    </p>
+
+    <div class="department-details">
+      <input placeholder="Department name" type="text">
+      <input placeholder="Population" type="number">
+      <p>Selcet Courses:</p>
+      <table id="objectTable">
+        <tr id="headerRow">
+          <!-- Header row -->
+        </tr>
+      </table>
+    </div>
+  </div>
+  
+  <script type="module" src="timetable.js"></script>
+</body>
+</html>
