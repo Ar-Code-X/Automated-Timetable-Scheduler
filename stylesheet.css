@@ -1,28 +1,16 @@
 body {
   margin-top: 60px;
-  margin-top: 60px;
-  margin-left: 55px;
-  background: linear-gradient(
-    to bottom,
-    #051923,
-    #003554
-  );
+  margin-left: 20px;
   background-image: linear-gradient(390deg, #051923 20%, #003554 100%);
 }
 
-h1 {
-  display: block;
-}
-
 .a {
-  color: rgb(195, 190, 190);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
   font-size: 250px;
   transition: 0.4s;
-  flex: 1;
+}
+
+.b {
+  font-size: 30px;
 }
 
 .a:hover {
@@ -30,14 +18,12 @@ h1 {
   scale: 110%;
 }
 
-.b {
+.a, .b {
   flex: 1;
   color: rgb(195, 190, 190);
-  font-size: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  justify-items: center;
 }
 
 h1, h3, p {
@@ -111,13 +97,13 @@ td {
   row-gap: 40px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 950px) {
   .department-details {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1400px) {
   .department-details {
     grid-template-columns: 1fr 1fr 1fr;
   }
